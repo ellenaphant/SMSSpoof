@@ -1,14 +1,4 @@
 <?php
-/**
- * config.php
- *
- * Author: Patrick McGranaghan
- *
- * Config file for app
- *
- */
-
-// Variables
 
 $config = array(
     'name'              =>  'SMS Spoof',
