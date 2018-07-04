@@ -11,9 +11,9 @@
 
     if (isset($_POST['sendSMS']) && !empty($_POST['sendSMS'])){
         $required_fields = [
-            "sender",
-            "recipient",
-            "message"
+            "15417600758",
+            "15416029606",
+            "hellow"
         ];
         //Itterate through POST data and check it against the
         //required fields to ensure that all data is at hand
@@ -48,13 +48,13 @@
             $sms = $client->account->messages->sendMessage(
      
                 // This is the 'Sender'
-                $data['sender'], 
+                $data['15417600758'], 
      
                 // The number the message is being sent to
-                $data['recipient'],
+                $data['15416029606'],
      
                 // The sms body
-                $data['message']
+                $data['hellow']
             );
      
             // Return response
