@@ -1,17 +1,4 @@
 <?php
-/**
- * init.php
- *
- * Author: Patrick McGranaghan
- *
- * PHP initialization file
- * Inludes:
- * - Loading of:
- *     + Functions
- *     + Librarys/Classes
- * Also sets some key variables for app usage
- *
- */
 
 session_start();
 
@@ -23,7 +10,7 @@ if ($enableErrors){
     error_reporting(-1);
 }
 
-date_default_timezone_set('Europe/Dublin');
+date_default_timezone_set('America/Los_Angeles');
 
 require 'functions/general.php';
 require 'assets/Services/Twilio.php';
