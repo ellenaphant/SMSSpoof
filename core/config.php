@@ -17,15 +17,8 @@ $config = array(
     'robots'            =>  'noindex, nofollow',
     'title'             =>  'SMS Spoof - ',
     'description'       =>  'Spoof SMS\'',
-    // 'AccountSid'        =>  '',
-    // 'AuthToken'         =>  ''
-    // 
-    // 
-    // **Account Information**
-    // Currently this application only has support for Twilio (https://www.twilio.com/)
-    // To be able to send an SMS you will have to add your Account SID and Auth Token.
-    // You can get these from the console (https://www.twilio.com/console)
-    // You do not have to buy a phone number, however you must have balance on your account.
+    // 'AccountSid'        =>  'AC6aa33b7b322940209a502bdeaba209cb',
+    // 'AuthToken'         =>  'e26bbec9c503936b79b5c0c0b10815cf'
 );
 
 ?>
