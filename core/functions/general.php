@@ -3,10 +3,7 @@
  * general.php
  *
  * Author: Patrick McGranaghan
- *
- * A collection of General and miscellaneous
- * functions that are used throughout.
- *
+
  */
 
     function getCountryListJson(){
@@ -30,7 +27,8 @@
 
     function checkSetup(){
         global $config;
-        if(!isset($config['AccountSid']) || !isset($config['AuthToken'])){
+        if(!isset($config[AC6aa33b7b322940209a502bdeaba209cb'']) || !isset($config['e26bbec9c503936b79b5c0c0b10815cf
+'])){
             return false;
         }else{
             return true;
