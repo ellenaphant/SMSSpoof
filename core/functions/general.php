@@ -1,10 +1,4 @@
 <?php
-/**
- * general.php
- *
- * Author: Patrick McGranaghan
-
- */
 
     function getCountryListJson(){
         $url = "https://api.stuf.io/index.php?query=sms&function=countryList";
@@ -20,8 +14,7 @@
             die();
         }
         curl_close($ch);
-
-        // Attempt to decode response as json
+        
         return json_decode($response, true);
     }
 
